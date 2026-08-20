@@ -44,11 +44,12 @@
 | 构建脚本 | 从 `data/profile/` 生成服务条目，避免手工维护 |
 | 静态清单互补 | `services.ts` 保留为静态清单，与自动生成互补 |
 
-## 阶段 5：部署（后期）
+## 阶段 5：部署（已完成 v0.1.0）
 
 | 任务 | 说明 |
 |------|------|
-| 部署工作流 | 参考 qtfounder `deploy-site.yml`：`site/*` tag → Vite build → OSS（qtbusiness-site 桶）→ CDN（business.quanttide.com） |
+| 部署工作流 | `deploy-site.yml`：`site/*` tag → Vite build → OSS（qtbusiness-site 桶）→ CDN（business.quanttide.com），HTTPS 泛域名证书 |
+| 基础设施 | OSS 桶 qtbusiness-site（静态托管）、CDN 域名、DNS CNAME 已配置；组织级 ALIYUN secrets 供 Actions 使用 |
 
 ## 验收与发布
 
