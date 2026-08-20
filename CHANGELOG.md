@@ -1,0 +1,8 @@
+# Changelog
+
+## [0.0.1] - 2026-08-20
+
+### 新增
+
+- 初始化仓库：README、LICENSE、CHANGELOG
+- 定位：服务黄页，展示定制服务与解决方案（意图档案见 data/intention/qtbusiness）
