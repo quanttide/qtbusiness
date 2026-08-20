@@ -41,16 +41,6 @@ export default function ServiceDetail() {
         </section>
 
         <section className="detail-section">
-          <h2>定价</h2>
-          <p>{service.pricing}</p>
-        </section>
-
-        <section className="detail-section">
-          <h2>来源业务</h2>
-          <p>{service.source}</p>
-        </section>
-
-        <section className="detail-section">
           <h2>询盘</h2>
           <p>
             通过联系渠道发起询盘（GitHub：github.com/quanttide，邮件待补充），

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { services, type ServiceType } from '../data/services'
 
 type Filter = '全部' | ServiceType
-const filters: Filter[] = ['全部', '数据服务', '咨询', '定制开发', '招聘']
+const filters: Filter[] = ['全部', '数据', '课堂', '咨询']
 
 export default function Services() {
   const [activeFilter, setActiveFilter] = useState<Filter>('全部')

@@ -13,9 +13,9 @@ export default function Home() {
       <section className="hero">
         <h1 className="hero-tagline">
           量潮商务：服务黄页。<br />
-          展示没有产品形态的定制服务与解决方案。
+          三个定制服务：数据、课堂、咨询。
         </h1>
-        <p className="hero-anchor">数据服务 · 咨询 · 定制开发 · 招聘</p>
+        <p className="hero-anchor">量潮数据 · 量潮课堂 · 量潮咨询</p>
       </section>
 
       <section className="section">
@@ -36,14 +36,9 @@ export default function Home() {
       <section className="section">
         <h2>定价模式</h2>
         <p>
-          以数据为中心定价（源自业务档案）：
+          数据服务公开定价：按量处理费（0.01 元/次起）、存储年费（不续费即删除）；
+          课堂与咨询按约定方式收费。
         </p>
-        <ul>
-          <li>处理费按量：0.01 元/次起，0.1 元为上限；质量不好可退款、不接受可不收钱；</li>
-          <li>存储费按年：不续费即删除；无成本数据可一次性永久存储；</li>
-          <li>帮你存数据 → 收存储费；帮你处理完、数据是你的 → 只收处理费；不用我们的资源 → 不收费；</li>
-          <li>按效果付费：效果即交付的领域模型与数据，用量的下降（成本下降）成为我们的优势。</li>
-        </ul>
         <p className="contact-note">
           公开定价即公开商业模型，降低客户的评估与信任成本。
         </p>
